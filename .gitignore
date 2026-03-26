@@ -1,1 +1,30 @@
-node_modules
+# SYED AMAAN PORTFOLIO 
+# Git Ignore Configuration
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Next.js (Ghost files removal safeguard)
+.next/
+out/
+next-env.d.ts
+next-temp/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
